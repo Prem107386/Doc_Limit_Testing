@@ -19,8 +19,7 @@ steps:
   displayName: 'Run a multi-line script'
 - task: UiPathInstallPlatform@6
   inputs:
-    cliVersion: 'CustomVersion'
-    cliNupkgPath: 'C:\agent\_work\_tool\uipcli\24.10.9050-17872'
+    cliVersion: 'Windows.25.10.7'
 - task: UiPathPack@6
   inputs:
     versionType: 'AutoVersion'
